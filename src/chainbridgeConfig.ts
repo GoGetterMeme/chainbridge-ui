@@ -92,7 +92,7 @@ export const chainbridgeConfig: ChainbridgeConfig = {
           imageUri: DAIIcon,
           resourceId:
             "0x000000000000000000000014dD060dB55c0E7cc072BD3ab4709d55583119c001",
-          isNativeWrappedToken: false,
+          isNativeWrappedToken: true,
         },
       ],
     },
