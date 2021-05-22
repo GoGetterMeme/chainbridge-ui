@@ -1,5 +1,6 @@
 import ETHIcon from "./media/tokens/eth.svg";
 import WETHIcon from "./media/tokens/weth.svg";
+import DAIIcon from "./media/tokens/dai.svg";
 
 export type TokenConfig = {
   address: string;
@@ -54,10 +55,10 @@ export const chainbridgeConfig: ChainbridgeConfig = {
             "0x000000000000000000000023A9FD05ef0c5fb9dDE964C4d4191A169Fd221f802",
         },
         {
-          address: "0x8e769778a900dafebcd309408263f85f5941c299",
-          name: "Xerxes",
-          symbol: "XRX",
-          imageUri: ETHIcon,
+          address: "0x88e9467fcf1d53baf48b5d21bd2abd59f5fbb040",
+          name: "Pyros",
+          symbol: "PYRO",
+          imageUri: DAIIcon,
           resourceId:
             "0x000000000000000000000000000000c76ebe4a02bbc34786d860b355f5a5ce00",
         },
@@ -85,13 +86,13 @@ export const chainbridgeConfig: ChainbridgeConfig = {
           isNativeWrappedToken: true,
         },
         {
-          address: "0x1847846a2f532e07255079050bdeaa10d1e5913a",
-          name: "Xerxes",
-          symbol: "XRX",
-          imageUri: ETHIcon,
+          address: "0x20dcd223983225a8795697dbd1cca8d174c2703b",
+          name: "wrapped Pyros",
+          symbol: "wPYRO",
+          imageUri: DAIIcon,
           resourceId:
             "0x000000000000000000000014dD060dB55c0E7cc072BD3ab4709d55583119c001",
-          isNativeWrappedToken: false,
+          isNativeWrappedToken: true,
         },
       ],
     },
