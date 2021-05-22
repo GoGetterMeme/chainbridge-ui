@@ -15,6 +15,7 @@ import { useWeb3 } from "@chainsafe/web3-context";
 import { useChainbridge } from "../../Contexts/ChainbridgeContext";
 import { object, string } from "yup";
 import { ReactComponent as ETHIcon } from "../../media/tokens/eth.svg";
+import { ReactComponent as DAIIcon } from "../../media/tokens/dai.svg";
 import { chainbridgeConfig, TokenConfig } from "../../chainbridgeConfig";
 import PreflightModalWrap from "../../Modules/PreflightModalWrap";
 import WrapActiveModal from "../../Modules/WrapActiveModal";
@@ -451,6 +452,27 @@ const MainPage = () => {
                           alt={wrapTokenConfig?.symbol}
                         />
                         <span>{wrapTokenConfig?.symbol || "wETH"}</span>
+                      </div>
+                    ),
+                    value: "unwrap",
+                  },
+                  {
+                    label: (
+                      <div className={classes.tokenItem}>
+                        <DAIIcon />
+                        <span>PYRO</span>
+                      </div>
+                    ),
+                    value: "wrap",
+                  },
+                  {
+                    label: (
+                      <div className={classes.tokenItem}>
+                        <img
+                          src={wrapTokenConfig?.imageUri}
+                          alt={wrapTokenConfig?.symbol}
+                        />
+                        <span>{wrapTokenConfig?.symbol || "wPYRO"}</span>
                       </div>
                     ),
                     value: "unwrap",
