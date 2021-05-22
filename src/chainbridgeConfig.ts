@@ -73,7 +73,7 @@ export const chainbridgeConfig: ChainbridgeConfig = {
       rpcUrl: "https://rinkeby.infura.io/v3/undefined",
       type: "Ethereum",
       blockExplorer: "https://rinkeby.etherscan.io",
-      nativeTokenSymbol: "ETH",
+      nativeTokenSymbol: "DAI",
       deployedBlockNumber: 0,
       tokens: [
         {
