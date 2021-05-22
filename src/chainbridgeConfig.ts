@@ -1,4 +1,4 @@
-import ETHIcon from "./media/tokens/eth.svg";
+// import ETHIcon from "./media/tokens/eth.svg";
 import WETHIcon from "./media/tokens/weth.svg";
 import DAIIcon from "./media/tokens/dai.svg";
 
@@ -92,7 +92,7 @@ export const chainbridgeConfig: ChainbridgeConfig = {
           imageUri: DAIIcon,
           resourceId:
             "0x000000000000000000000014dD060dB55c0E7cc072BD3ab4709d55583119c001",
-          isNativeWrappedToken: true,
+          isNativeWrappedToken: false,
         },
       ],
     },
